@@ -43,7 +43,7 @@ $( document ).ready(function() {
 
         var gif = $(this).attr("Data-Name")
         
-        queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=P8Q8jrOA4Ktl6jR6fA4b72LJK4VMWsoF&limit=10"
+        queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=P8Q8jrOA4Ktl6jR6fA4b72LJK4VMWsoF&limit=10"
         
         $.ajax({
             url: queryURL,
